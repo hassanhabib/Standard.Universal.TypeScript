@@ -9,6 +9,6 @@ export class StudentService {
     }
 
     addStudent(student: Student): Student {
-        throw new Error("Method not implemented.");
+        return this.storageBroker.insertStudent(student);
     }
 }
