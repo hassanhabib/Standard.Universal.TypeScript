@@ -1,0 +1,15 @@
+{
+  "name": "Standard.Universal.TypeScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
